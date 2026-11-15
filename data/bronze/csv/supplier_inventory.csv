@@ -1,0 +1,6 @@
+supplier_id,product_id,supplier_name,available_quantity,unit_cost,last_updated
+S001,P001,Alpha Suppliers,150,450,2026-11-13
+S002,P002,Beta Traders,80,200,2026-11-13
+S003,P003,Gamma Distributors,200,500,2026-11-13
+S001,P004,Alpha Suppliers,0,1000,2026-11-13
+S004,P005,Delta Wholesale,120,320,2026-11-13

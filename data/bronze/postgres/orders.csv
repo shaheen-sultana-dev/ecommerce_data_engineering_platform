@@ -1,0 +1,7 @@
+order_id,customer_id,order_ts,order_status,payment_method
+O1001,C001,2026-11-10 09:15:00,completed,UPI
+O1002,C002,2026-11-10 11:30:00,completed,Card
+O1003,C003,2026-11-11 14:05:00,completed,UPI
+O1004,C001,2026-11-12 16:20:00,cancelled,Card
+O1005,C004,2026-11-12 18:45:00,completed,NetBanking
+O1006,C005,2026-11-13 10:10:00,completed,UPI

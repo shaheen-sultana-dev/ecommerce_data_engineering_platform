@@ -1,0 +1,6 @@
+product_id,product_name,category,unit_price,updated_at
+P001,Laptop,Electronics,50000.00,2026-11-13 20:54:13.772530
+P002,Wireless Mouse,Accessories,500.00,2026-11-13 20:54:13.772530
+P003,Keyboard,Accessories,1200.00,2026-11-13 20:54:13.772530
+P004,Headphones,Electronics,2500.00,2026-11-13 20:54:13.772530
+P005,Office Chair,Furniture,7500.00,2026-11-13 20:54:13.772530

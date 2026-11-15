@@ -1,0 +1,2 @@
+{"event_id": "EVT003", "event_type": "ORDER_PLACED", "order_id": "O1002", "customer_id": "C002", "amount": 2500, "event_timestamp": "2026-11-14T09:02:00"}
+{"event_id": "EVT004", "event_type": "PAYMENT_COMPLETED", "order_id": "O1002", "customer_id": "C002", "amount": 2500, "event_timestamp": "2026-11-14T09:03:00"}

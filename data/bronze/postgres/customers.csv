@@ -1,0 +1,6 @@
+customer_id,customer_name,email,city,state,created_at
+C001,Asha Rao,asha@example.com,Bengaluru,Karnataka,2026-11-13 20:54:13.772530
+C002,Rahul Shah,rahul@example.com,Mumbai,Maharashtra,2026-11-13 20:54:13.772530
+C003,Meera Khan,,Hyderabad,Telangana,2026-11-13 20:54:13.772530
+C004,Dev Patel,dev@example.com,Pune,Maharashtra,2026-11-13 20:54:13.772530
+C005,Sara Ali,sara@example.com,Raichur,Karnataka,2026-11-13 20:54:13.772530
