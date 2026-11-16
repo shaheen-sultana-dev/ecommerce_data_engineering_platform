@@ -63,7 +63,8 @@ TRUNCATE TABLE
     silver.order_items,
     silver.orders,
     silver.products,
-    silver.customers;
+    silver.customers
+CASCADE;
 
 
 -- 4. Transform customers
