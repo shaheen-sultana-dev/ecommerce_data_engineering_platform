@@ -25,6 +25,7 @@ The platform addresses the following requirements:
 
 ## 3. Proposed Production Architecture
 
+![Proposed Production Architecture](docs/architecture.png)
 ### Architecture Flow
 
 1. **Data Sources:** PostgreSQL operational databases, REST APIs, supplier CSV files and order/payment events.
@@ -178,7 +179,7 @@ The working prototype demonstrates the main pipeline locally.
 | Apache Spark / Databricks | PostgreSQL SQL transformations                         |
 | Apache Airflow            | Python scripts executed manually in sequence           |
 | Databricks SQL Warehouse  | PostgreSQL analytical queries                          |
-| Power BI                  | Gold-layer analytical query outputs                    |
+| Power BI                  | Not implemented locally; PostgreSQL analytical query outputs demonstrate the analytics                      |
 
 The prototype does not claim to deploy or benchmark a production Kafka, Spark, Airflow or AWS environment. These technologies form part of the proposed production design.
 
