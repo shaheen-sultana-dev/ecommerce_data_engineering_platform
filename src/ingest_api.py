@@ -45,13 +45,15 @@ def ingest_api():
 
     except HTTPError as error:
         print(f"HTTP error: {error.code} - {error.reason}")
-
+        raise
+        
     except URLError as error:
         print(f"Connection error: {error.reason}")
-
+        raise
+        
     except TimeoutError:
         print("API request timed out.")
-
+        raise
 
 if __name__ == "__main__":
     ingest_api()
