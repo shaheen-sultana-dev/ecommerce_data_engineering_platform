@@ -148,7 +148,6 @@ create table if not exists staging.order_events_raw (
     event_id TEXT,
 	event_type TEXT,
 	order_id TEXT,
-	available_quantity TEXT,
 	customer_id TEXT,
 	amount TEXT,
 	event_timestamp TEXT,
@@ -161,7 +160,6 @@ create table if not exists staging.order_events_raw (
 create table if not exists staging.customers_raw (
     customer_id TEXT,
 	customer_name TEXT,
-	order_id TEXT,
 	email TEXT,
 	city TEXT,
 	state TEXT,
